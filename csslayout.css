@@ -1,0 +1,218 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+nav {
+    background-color: black;
+    color: white;
+    padding: .5rem 1rem;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    padding: .5rem 1rem; 
+    
+}
+nav ul li{
+    display: inline-block;
+    padding: .5rem 1rem;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+.header{
+    width: 100%;
+    background: url(bluee.jpg);
+    color: white;
+    height: 80vh;
+    padding: 100px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+.header h4{
+    margin-top: 70px;
+    font-size: 2rem;
+}
+.my-name{
+    font-size: 60px;
+}
+h2{
+    color:black;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+#about-me img{
+    height: 480px;
+    width:100% ;
+}
+#about-me{
+    display: flex;
+    margin: 5rem 10rem 0 2rem;
+    box-shadow: 0 .5rem 1rem rgb(0 0 0/15%) !important;
+    
+}
+.aboutme-text{
+    color: #999;
+    width: 70%;
+    padding: 20px;
+    font-size: 18px;
+}
+.aboutme-text strong{
+    color: #000;
+}
+#education{
+    background: url(bluee.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 150px 5%;
+}
+#skills{
+    padding: 50px 5%;
+}
+table{
+    width: 100%;
+}
+td,th,tr{
+    border:1px solid #000;
+    height: 40px;
+    padding: 0 1rem;
+}
+th{
+    background-color: black;
+    color: white;
+
+}
+.skills-topic{
+    display: flex;
+    justify-content: space-between;
+}
+.skills-topic li{
+    color:red;
+    font: size 24px;
+    font-weight:bold;
+    width:25%;
+    text-align:center;
+}
+ul.skills-topic{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.skills-topic li lo li{
+    color:#000;
+    width:100%;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+.skill-name{
+    display: flex;
+    justify-content: space-between;
+}
+.progressbar{
+    border-radius: 8px;
+    width: 100%;
+    background: #e6e6e6;
+
+}
+ .progressbar> div{
+       background: #3e64ff;
+       background-image: linear-gradient(to right,#1636b4,#190a9c); 
+       height:20Px;
+       border-radius: 10px;
+       width:40%;
+}
+div.c-plus{
+    width:70%;
+}
+div.html{
+    width:90%
+
+}
+.projects{
+    display:flex;
+    flex-wrap:wrap;
+}
+.projects div{
+    width: 25vw;
+    height: 200px;
+    padding: 1rem;
+}
+.projects div img{
+    width: 200px;
+    height:80%
+}
+#contact{
+    background:#f8f9fa !important;
+    padding: 50px;
+}
+.contact-details{
+    padding:0rem 3rem;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.contact-details div{
+    height: 150px;
+    width:35%;
+    margin:1rem;
+    padding: 1rem;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 /15%) !important;
+    text-align: center;
+}
+form div{
+    margin: 1rem;
+}
+.form{
+    padding: 1rem;
+}
+.form-label,legend{
+    font-size: 18px;
+}
+[name="email"],[name="fullname"]{
+    height: 30px;
+}
+select{
+    height: 45px;
+}
+[name="connect"]{
+    margin-left: 30px;
+    margin-top: 1rem;
+}
+.form-control{
+    margin-top: 1rem;
+    border: 1px solid #ced4da;
+    padding:.375rem .75rem;
+    width: webkit-fill-available;
+    font-size: 15px;
+}
+.btn{
+    width: 200px;
+    background: #3e64ff !important;
+    border:rgb(38, 136, 18) !important;
+    box-shadow: 0px 24px 36px -11px rgb(0 0 0 / 9%);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: 25px;
+    cursor:pointer;
+}
+footer{
+    background-color:  black;
+    color: white;
+    height: 40px;
+    margin-top: 0;
+    padding: .5rem 1rem;
+    text-align: center;
+}
+
+
